@@ -12,4 +12,7 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
         self.rating = movie_rating
     def show_trailer(self):
+        '''
+        This method opens a youtube url.
+        '''
         webbrowser.open(self.trailer_youtube_url)
